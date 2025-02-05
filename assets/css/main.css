@@ -1036,7 +1036,7 @@ Location:
 }
 
 .heading12 h5 {
-  color: var(--ztc-text-text-17);
+  color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s18);
   font-style: normal;
@@ -1044,7 +1044,8 @@ Location:
   line-height: 18px;
   text-transform: uppercase;
   border-radius: 6px;
-  background: rgba(255, 80, 0, 0.1);
+  background: var(--LLL, linear-gradient(135deg, rgba(254, 174, 0, 0.8) 0%, rgba(255, 67, 87, 0.8) 40%, rgba(124, 42, 150, 0.8) 75%, rgba(0, 182, 160, 0.8) 100%));
+
   padding: 9px 10px;
   display: inline-block;
 }
@@ -1882,11 +1883,11 @@ Location:
 }
 .pricing-plan-section-area .pricing-boxarea.box2 .ticket-box .btn-area1 a span.demo {
   background: var(--ztc-text-text-5);
-  color: var(--ztc-text-text-1);
+  color: var(--ztc-text-text-2);
 }
 .pricing-plan-section-area .pricing-boxarea.box2 .ticket-box .btn-area1 a .arrow {
   background: var(--ztc-text-text-5);
-  color: var(--ztc-text-text-1);
+  color: var(--ztc-text-text-2);
 }
 
 .pricing-lan-section-area {
@@ -3788,10 +3789,10 @@ Location:
 }
 .hero9-slider-area .hero8-header .btn-area1 .vl-btn9.btn2 {
   background: transparent;
-  color: var(--ztc-text-text-1);
-  border: 1px solid var(--ztc-text-text-1);
+  color: var(--ztc-text-text-2);
+  border: 1px solid var(--ztc-text-text-2);
   margin-left: 20px;
-  padding: 18px 26px;
+  padding: 20px 26px;
 }
 @media (max-width: 767px) {
   .hero9-slider-area .hero8-header .btn-area1 .vl-btn9.btn2 {
