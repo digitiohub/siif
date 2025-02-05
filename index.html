@@ -31,6 +31,17 @@
 		.schedule table td:first-child {
 		  width: 250px;
 		}
+
+		.event-scroller {
+      overflow-x: auto;
+      display: flex;
+      flex-wrap: nowrap;
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE and Edge */
+    }
+    .event-scroller::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Opera */
+    }
 	  </style>
 
 	<!--=====  JS SCRIPT LINK =======-->
@@ -523,6 +534,7 @@
 	<!--===== TEAM AREA ENDS =======-->
 
 	<!--===== EVENT AREA STARTS =======-->
+	
 	<div class="event9-section-area sp1">
 		<div class="container">
 			<div class="row">
@@ -534,6 +546,73 @@
 					</div>
 				</div>
 			</div>
+			<!--===== WORKSHOP SCROLLER STARTS =======-->
+			<div class="choose-section-area sp2">
+				<div class="container">
+					<div
+					class="row event-scroller"
+					style="overflow-x: auto; display: flex; flex-wrap: nowrap"
+					>
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea-event">
+						<img src="assets/img/workshops/1. Calligraphy.jpeg" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea-event">
+						<img src="assets/img/workshops/2. Ikebana.jpeg" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea-event">
+						<img
+							src="assets/img/workshops/3. Doodle Your Dreams.png"
+							alt=""
+						/>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea-event">
+						<img src="assets/img/workshops/4. Warli.jpg" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea-event">
+						<img src="assets/img/workshops/5. Reimagining Tales.jpg" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea-event">
+						<img src="assets/img/workshops/6. Found Poetry.jpg" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea-event">
+						<img
+							src="assets/img/workshops/7. Nature Comes Alive.png"
+							alt=""
+						/>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea-event">
+						<img src="assets/img/workshops/8. Spray Painting.jpeg" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea-event">
+						<img src="assets/img/workshops/9. Salsa Dance.png" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea-event">
+						<img src="assets/img/workshops/10. Musical.png" alt="" />
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<!--===== WORKSHOP SCROLLER ENDS =======-->
 			<div class="row">
 				<div class="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
 					<div class="tabs-button space-margin60">
@@ -556,7 +635,7 @@
 									<span class="calender"><img src="assets/img/icons/calender2.svg" alt="" /></span>
 									<span class="pl-8">
 										<span class="day">Day Two</span>
-										<span class="date">May 26, 2024</span>
+										<span class="date">February 22, 2025</span>
 									</span>
 								</button>
 							</li>
@@ -790,14 +869,7 @@
 											<tr>
 											  <td>10 AM - 6 PM</td>
 											  <td>
-												Hourly On-The-Go Workshops (Art Hive) <br />
-												- Water Colour Painting <br />
-												- Bracelet Making <br />
-												- Poetry <br />
-												- Mirror Wall <br />
-												- Glow in the Dark Paint <br />
-												- Body Painting <br />
-												- Clay Modelling
+												Hourly On-The-Go Workshops (Art Hive) / Water Colour Painting / Bracelet Making / <br> Poetry / Mirror Wall / Glow in the Dark Paint / Body Painting / Clay Modelling
 											  </td>
 											</tr>
 											<tr>
@@ -838,14 +910,7 @@
 											<tr>
 											  <td>10 AM - 6 PM</td>
 											  <td>
-												Innovation & Impact Showcase (Gargi Plaza/Art Hive) <br />
-												- Sustainable Fashion and Lifestyle <br />
-												- Startups/Fablabs/Makerspace <br />
-												- Wellness <br />
-												- Art & Design <br />
-												- AR & VR & AI <br />
-												- Physiotherapy <br />
-												- Museum on Wheels by CSMVS
+												Innovation & Impact Showcase (Gargi Plaza/Art Hive) / <br> Sustainable Fashion and Lifestyle / Startups / Fablabs / Makerspace / Wellness / Art & Design / <br> AR & VR & AI / Physiotherapy / Museum on Wheels by CSMVS
 											  </td>
 											</tr>
 										  </table>
@@ -873,19 +938,13 @@
 											  <th>Activity</th>
 											</tr>
 											<tr>
-											  <td>10 AM - 1 PM</td>
-											<tr>
 											  <td>2 PM - 6 PM</td>
 											  <td>Open Mic (Gargi Plaza/Art Hive)</td>
 											</tr>
 											<tr>
 											  <td>2 PM - 10 PM</td>
 											  <td>
-												Reading Nooks <br />
-												Board Games Corner <br />
-												Hammock <br />
-												Fun Viewings <br />
-												And more...
+												Reading Nooks, Board Games Corner, Hammock, Fun Viewings, And more...
 											  </td>
 											</tr>
 										  </table>
@@ -1309,6 +1368,31 @@
 	<script src="assets/js/vendor/slick-slider.js"></script>
 	<script src="assets/js/vendor/circle-progress.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script>
+		// Select the scrolling container
+		const scrollingRow = document.querySelector(
+		  ".choose-section-area .container .event-scroller"
+		);
+  
+		let scrollSpeed = 1; // Adjust speed (px change per interval)
+  
+		function autoScroll() {
+		  if (scrollingRow) {
+			// Reset scroll if reaching the end (for continuous loop)
+			if (
+			  scrollingRow.scrollLeft >=
+			  scrollingRow.scrollWidth - scrollingRow.clientWidth
+			) {
+			  scrollingRow.scrollLeft = 0;
+			} else {
+			  scrollingRow.scrollLeft += scrollSpeed;
+			}
+		  }
+		}
+  
+		// Run autoScroll every 20ms; adjust timing for smoother/faster scrolling.
+		setInterval(autoScroll, 20);
+	  </script>
 </body>
 
 
