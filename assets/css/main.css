@@ -3714,7 +3714,7 @@ Location:
 .hero9-slider-area {
   position: relative;
   z-index: 1;
-  padding: 190px 0 170px;
+  padding: 50px 0 170px;
 }
 @media (max-width: 767px) {
   .hero9-slider-area {
@@ -7718,7 +7718,7 @@ Location:
 }
 .footer9-sertion-area .footer-logo-area img {
   width: 150px;
-  height: 46px;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
