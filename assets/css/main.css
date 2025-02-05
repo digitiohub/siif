@@ -4970,7 +4970,7 @@ Location:
 }
 
 .mobile-header.mobile-haeder9 {
-  background: var(--ztc-bg-bg-13);
+  background: var(--ztc-bg-bg-1);
   position: fixed;
 }
 .mobile-header.mobile-haeder9 .mobile-logo {
@@ -4980,7 +4980,7 @@ Location:
      object-fit: contain;
 }
 .mobile-header.mobile-haeder9 .dots-menu {
-  color: var(--ztc-bg-bg-1);
+  color: var(--ztc-bg-bg-2);
 }
 
 .mobile-sidebar.mobile-sidebar9 {
@@ -22038,8 +22038,8 @@ Location:
   vertical-align: middle;
 }
 .schedule-section-area th {
-  background-color: #f8b500;
-  color: var(--ztc-text-text-2);
+  background:transparent;
+  color: var(--ztc-text-text-1);
   text-align: center;
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s24);
