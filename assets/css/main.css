@@ -3391,7 +3391,7 @@ Location:
   border-radius: 8px;
 }
 .hero7-section-area .timer-btn-area {
-  background: var(--ztc-bg-bg-1);
+  background: white;
   border-radius: 8px;
   position: absolute;
   width: 720px;
@@ -3802,7 +3802,7 @@ Location:
   border-radius: 8px;
   position: absolute;
   border-radius: var(--rounded-lg, 8px) var(--rounded-lg, 8px) 0px 0px;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--LLL, linear-gradient(135deg, #FF5000 0%, #FF00B8 100%));
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
   width: 1170px;
@@ -11440,7 +11440,7 @@ Location:
   width: 100%;
   z-index: 9;
   transition: all 0.4s;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 1);
   padding: 20px 0;
 }
 .homepage9-body .header-area.homepage9 .header-elements {
@@ -11781,7 +11781,7 @@ Location:
   animation-duration: 1s;
   animation-fill-mode: forwards;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
-  background: var(--ztc-text-text-2);
+  background: white;
   transition: all 0.4s;
 }
 
