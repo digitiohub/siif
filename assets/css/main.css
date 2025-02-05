@@ -3728,7 +3728,7 @@ Location:
 .hero9-slider-area {
   position: relative;
   z-index: 1;
-  padding: 50px 0 170px;
+  padding: 100px 0 0px;
 }
 @media (max-width: 767px) {
   .hero9-slider-area {
@@ -3814,13 +3814,14 @@ Location:
 }
 .hero9-slider-area .timer-bg-area {
   border-radius: 8px;
-  position: absolute;
-  border-radius: var(--rounded-lg, 8px) var(--rounded-lg, 8px) 0px 0px;
+  /* position: relative; */
+  
   background: var(--LLL, linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%));
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
   width: 1170px;
-  padding: 40px 100px;
+  padding: 40px ;
+  margin:auto;
   bottom: 0;
 }
 @media (max-width: 767px) {
@@ -18526,7 +18527,7 @@ Location:
 }
 .cta9-section-area .cta1-main-boxarea {
   border-radius: var(--rounded-lg, 8px);
-  background: var(--LLL, linear-gradient(135deg, #FF5000 0%, #FF00B8 100%));
+  background: var(--LLL, linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%));
   padding: 44px;
 }
 @media (max-width: 767px) {
