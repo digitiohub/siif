@@ -18582,7 +18582,7 @@ Location:
 }
 @media (max-width: 767px) {
   .cta9-section-area .cta1-main-boxarea .timer-btn-area .timer .time-box {
-    margin: 0 0 20px 0;
+    margin: 20px auto !important; 
     display: block;
   }
 }
@@ -18687,6 +18687,7 @@ Location:
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.2);
   padding: 12px 10px;
+  margin:auto;
 }
 @media (max-width: 767px) {
   .cta9-section-area .cta1-main-boxarea ul li a {
