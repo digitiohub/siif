@@ -4590,6 +4590,9 @@ Location:
   border-radius: 50%;
   margin: 0 6px 0 0;
 }
+
+
+
 .mobile-sidebar.mobile-sidebar4 .footer1-contact-info .social-links-mobile-menu ul li a:hover {
   transform: translateY(-5px);
   transition: all 0.4s;
@@ -18647,7 +18650,7 @@ Location:
   left: 50%;
   top: 0;
   transition: all 0.4s;
-  background: var(--LLL, linear-gradient(135deg, #FF00B8 0%, #FF5000 100%));
+  background: linear-gradient(135deg, #ff4357 0%, #00b6a0 100%);
   z-index: -1;
   border-radius: 4px;
   visibility: hidden;

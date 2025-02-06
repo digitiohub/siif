@@ -29,18 +29,24 @@
 	<style>
 		.schedule table th:first-child,
 		.schedule table td:first-child {
-		  width: 250px;
+			width: 250px;
 		}
 
-		.event-scroller1, .event-scroller2 {
+		.event-scroller1,
+		.event-scroller2 {
 			overflow-x: auto;
 			display: flex;
 			flex-wrap: nowrap;
-			scrollbar-width: none; /* Firefox */
-			-ms-overflow-style: none; /* IE and Edge */
+			scrollbar-width: none;
+			/* Firefox */
+			-ms-overflow-style: none;
+			/* IE and Edge */
 		}
-		.event-scroller1::-webkit-scrollbar, .event-scroller2::-webkit-scrollbar {
-			display: none; /* Chrome, Safari, Opera */
+
+		.event-scroller1::-webkit-scrollbar,
+		.event-scroller2::-webkit-scrollbar {
+			display: none;
+			/* Chrome, Safari, Opera */
 		}
 	</style>
 
@@ -106,9 +112,10 @@
 										<a href="#" class="text-black">Home </a>
 
 									</li>
-									<li><a href="#event-schedule-section" class="text-black" >Schedule</a></li>
+									<li><a href="#event-schedule-section" class="text-black">Schedule</a></li>
 									<li>
-										<a href="#event-schedule-section" class="text-black" >Events <i class="fa-solid fa-angle-down"></i></a>
+										<a href="#event-schedule-section" class="text-black">Events <i
+												class="fa-solid fa-angle-down"></i></a>
 										<ul class="dropdown-padding">
 											<li><a href="#">Inaugration & Networking</a></li>
 											<li><a href="#">KJSPARC Kickoff</a></li>
@@ -123,7 +130,8 @@
 										</ul>
 									</li>
 									<li>
-										<a href="#event-schedule-section" class="text-black" >Workshops<i class="fa-solid fa-angle-down"></i></a>
+										<a href="#event-schedule-section" class="text-black">Workshops<i
+												class="fa-solid fa-angle-down"></i></a>
 										<ul class="dropdown-padding">
 											<li><a href="#">Smash the box</a></li>
 											<li><a href="#">Reimagining Tales</a></li>
@@ -137,16 +145,16 @@
 											<li><a href="#">Doodle your dreams</a></li>
 											<li><a href="#">Intuitive Musical Exploration</a></li>
 											<li><a href="#">Salsa</a></li>
-											
+
 										</ul>
 									</li>
 									<li>
-										<a href="#event-schedule-section" class="text-black" >Showcase </a>
-										
+										<a href="#event-schedule-section" class="text-black">Showcase </a>
+
 									</li>
 									<li>
-										<a href="#event-schedule-section" class="text-black" >Performance </a>
-										
+										<a href="#event-schedule-section" class="text-black">Performance </a>
+
 									</li>
 								</ul>
 							</div>
@@ -156,13 +164,16 @@
 								</div>
 								<ul>
 									<li>
-										<a href="https://www.facebook.com/siif.india" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+										<a href="https://www.facebook.com/siif.india" target="_blank"><i
+												class="fa-brands fa-facebook-f"></i></a>
 									</li>
 									<li>
-										<a href="https://www.instagram.com/siif.india"><i class="fa-brands fa-instagram"></i></a>
+										<a href="https://www.instagram.com/siif.india" target="_blank"><i
+												class="fa-brands fa-instagram"></i></a>
 									</li>
 									<li>
-										<a href="https://www.linkedin.com/company/siif-india/"><i class="fa-brands fa-linkedin-in"></i></a>
+										<a href="https://www.linkedin.com/company/siif-india/" target="_blank"><i
+												class="fa-brands fa-linkedin-in"></i></a>
 									</li>
 								</ul>
 							</div>
@@ -193,7 +204,7 @@
 			<div class="col-12">
 				<div class="mobile-header-elements">
 					<div class="mobile-logo">
-						<a href="index.html"><img src="assets/img/logo/logo1.png" alt="" /></a>
+						<a href="index.html"><img src="assets/img/logo/siifIcon.svg" alt="" /></a>
 					</div>
 					<div class="mobile-nav-icon dots-menu">
 						<i class="fa-solid fa-bars-staggered"></i>
@@ -206,7 +217,7 @@
 	<div class="mobile-sidebar mobile-sidebar9">
 		<div class="logosicon-area">
 			<div class="logos">
-				<img src="assets/img/logo/logo2.png" alt="" />
+				<img src="assets/img/logo/siifIcon.svg" style="width:50%; "alt="" />
 			</div>
 			<div class="menu-close">
 				<i class="fa-solid fa-xmark"></i>
@@ -218,39 +229,47 @@
 					<a href="index.html">Home </a>
 			</ul>
 			</li>
-			<li><a href="about">About Event</a></li>
+			<li><a href="#event-schedule-section">Schedule</a></li>
 			<li>
-				<a href="features.html">Speakers</a>
+				<a href="features.html">Events</a>
 				<ul class="sub-menu">
-					<li><a href="speakers">Speakers</a></li>
-					<li><a href="speakers-single">Speakers Details</a></li>
+					<li><a href="#event-schedule-section">Inauguration & Networking</a></li>
+					<li><a href="#event-schedule-section">KJSPARC Kickoff</a></li>
+					<li><a href="#event-schedule-section">Fablab Design Sprint</a></li>
+					<li><a href="#event-schedule-section">Conscious Creators Community Meetup</a></li>
+					<li><a href="#event-schedule-section">Sustainable Fashion & Lifestyle Quiz</a></li>
+					<li><a href="#event-schedule-section">Sarkaar-Samaaj-Bazaar</a></li>
+					<li><a href="#event-schedule-section">Free Portfolio 101</a></li>
+					<li><a href="#event-schedule-section">Somaiya Angel Network</a></li>
+					<li><a href="#event-schedule-section">Reel Contest</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="features.html">Schedule</a>
+				<a href="features.html">Workshops</a>
 				<ul class="sub-menu">
-					<li><a href="event">Our Event</a></li>
-					<li><a href="event-schedule">Event Schedule</a></li>
-					<li><a href="event-single">Event Details</a></li>
+					<li><a href="#event-schedule-section">Smash the Box</a></li>
+					<li><a href="#event-schedule-section">Reimagining Tales</a></li>
+					<li><a href="#event-schedule-section">Spray Painting</a></li>
+					<li><a href="#event-schedule-section">Warli Workshop</a></li>
+					<li><a href="#event-schedule-section">Ikebana Workshop</a></li>
+					<li><a href="#event-schedule-section">Art Challenge Competition</a></li>
+					<li><a href="#event-schedule-section">Nature Comes Alive</a></li>
+					<li><a href="#event-schedule-section">Calligraphy Workshops</a></li>
+					<li><a href="#event-schedule-section">Found Poetry</a></li>
+					<li><a href="#event-schedule-section">Doodle your Dreams</a></li>
+					<li><a href="#event-schedule-section">Intuitive Musical Exploration</a></li>
+					<li><a href="#event-schedule-section">Salsa Dance</a></li>
+		
+					
 				</ul>
 			</li>
 			<li>
-				<a href="#">Blogs</a>
-				<ul class="sub-menu">
-					<li><a href="blog">Our Blog</a></li>
-					<li><a href="blog-single">Blog Details</a></li>
-				</ul>
+				<a href="#">Showcase</a>
 			</li>
 			<li>
-				<a href="#">Pages</a>
-				<ul class="sub-menu">
-					<li><a href="memories">Our Memories</a></li>
-					<li><a href="pricing-plan">Pricing Plan</a></li>
-					<li><a href="faq">FAQ,s</a></li>
-					<li><a href="contact">Contact Us</a></li>
-				</ul>
+				<a href="#">Performance</a>
 			</li>
-			<li><a href="contact">Contact Us</a></li>
+			<li><a href="https://linktr.ee/siif.india">Participate Now</a></li>
 			</ul>
 			<div class="allmobilesection">
 				<a class="vl-btn9" href="contact"><span class="demo">Contact Us</span> </a>
@@ -262,17 +281,10 @@
 								<span><i class="fa-solid fa-phone-volume"></i></span>
 							</div>
 							<div class="contact-info-text">
-								<a href="tel:+3(924)4596512">+3(924)4596512</a>
+								<a href="tel:+3(924)4596512">+91 99200 52361</a>
 							</div>
 						</div>
-						<div class="contact-info-single">
-							<div class="contact-info-icon">
-								<span><i class="fa-solid fa-envelope"></i></span>
-							</div>
-							<div class="contact-info-text">
-								<a href="mailto:info@example.com">info@example.com</a>
-							</div>
-						</div>
+						
 						<div class="single-footer">
 							<h3>Our Location</h3>
 							<div class="contact-info-single">
@@ -280,8 +292,7 @@
 									<span><i class="fa-solid fa-location-dot"></i></span>
 								</div>
 								<div class="contact-info-text">
-									<a href="mailto:info@example.com">55 East Birchwood Ave.Brooklyn, <br />
-										New York 11201,United States</a>
+									<a href="mailto:info@example.com">Somaiya Vidyavihar, Somaiya School of Design, Bhaskaracharya Building, Vidyavihar (E), Mumbai, Maharashtra 400077</a>
 								</div>
 							</div>
 						</div>
@@ -290,17 +301,15 @@
 							<div class="social-links-mobile-menu">
 								<ul>
 									<li>
-										<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+										<a href="https://www.facebook.com/siif.india" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
 									</li>
 									<li>
-										<a href="#"><i class="fa-brands fa-instagram"></i></a>
+										<a href="https://www.instagram.com/siif.india" target="_blank"><i class="fa-brands fa-instagram"></i></a>
 									</li>
 									<li>
-										<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+										<a href="https://www.linkedin.com/company/siif-india/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
 									</li>
-									<li>
-										<a href="#"><i class="fa-brands fa-youtube"></i></a>
-									</li>
+									
 								</ul>
 							</div>
 						</div>
@@ -318,12 +327,14 @@
 			<div class="row align-items-center">
 				<div class="col-lg-7">
 					<div class="hero8-header">
-						<h5 class="text-anime-style-3 text-black">Empowering Communities through Conversations, Collaborations &
+						<h5 class="text-anime-style-3 text-black">Empowering Communities through Conversations,
+							Collaborations &
 							Creativity</h5>
 						<div class="space32"></div>
 						<div class="btn-area1">
-							<a href="https://linktr.ee/siif.india" target="_blank" class="vl-btn9"><span class="demo">Participate Now!</span></a>
-							<a href="event-schedule" class="vl-btn9 btn2"><span class="demo">Schedules</span></a>
+							<a href="https://linktr.ee/siif.india" target="_blank" class="vl-btn9"><span
+									class="demo">Participate Now!</span></a>
+							<a href="https://www.somaiya.edu/en/siif-brochure" class="vl-btn9 btn2"><span class="demo">View Brochure</span></a>
 						</div>
 					</div>
 				</div>
@@ -534,7 +545,7 @@
 	<!--===== TEAM AREA ENDS =======-->
 
 	<!--===== EVENT AREA STARTS =======-->
-	
+
 	<div class="event9-section-area sp1" style="padding-top: 50px;">
 		<div class="container">
 			<div class="row">
@@ -549,61 +560,52 @@
 			<!--===== EVENTS SCROLLER STARTS =======-->
 			<div class="choose-section-area sp2" style="padding-top: 50px; padding-bottom: 50px;">
 				<div class="container">
-					<div
-					class="row event-scroller1"
-					style="overflow-x: auto; display: flex; flex-wrap: nowrap"
-					>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/events/inagugration.png" alt="" />
+					<div class="row event-scroller1" style="overflow-x: auto; display: flex; flex-wrap: nowrap">
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/events/inagugration.png" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/events/kickoff.png" alt="" />
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/events/kickoff.png" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img
-							src="assets/img/events/fablabpng.png"
-							alt=""
-						/>
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/events/fablabpng.png" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/events/creatorspng.png" alt="" />
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/events/creatorspng.png" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/events/sustainpng.png" alt="" />
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/events/sustainpng.png" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/events/sarkaar.png" alt="" />
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/events/sarkaar.png" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img
-							src="assets/img/events/frelopng.png"
-							alt=""
-						/>
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/events/frelopng.png" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/events/angelpng.png" alt="" />
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/events/angelpng.png" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/events/reel.png" alt="" />
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/events/reel.png" alt="" />
+							</div>
 						</div>
-					</div>
 					</div>
 				</div>
 			</div>
@@ -612,66 +614,57 @@
 			<!--===== WORKSHOP SCROLLER STARTS =======-->
 			<div class="choose-section-area sp2" style="padding-top: 50px; padding-bottom: 50px;">
 				<div class="container">
-					<div
-					class="row event-scroller2"
-					style="overflow-x: auto; display: flex; flex-wrap: nowrap"
-					>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/workshops/1. Calligraphy.jpeg" alt="" />
+					<div class="row event-scroller2" style="overflow-x: auto; display: flex; flex-wrap: nowrap">
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/workshops/1. Calligraphy.jpeg" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/workshops/2. Ikebana.jpeg" alt="" />
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/workshops/2. Ikebana.jpeg" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img
-							src="assets/img/workshops/3. Doodle Your Dreams.png"
-							alt=""
-						/>
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/workshops/3. Doodle Your Dreams.png" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/workshops/4. Warli.jpg" alt="" />
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/workshops/4. Warli.jpg" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/workshops/5. Reimagining Tales.jpg" alt="" />
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/workshops/5. Reimagining Tales.jpg" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/workshops/6. Found Poetry.jpg" alt="" />
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/workshops/6. Found Poetry.jpg" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img
-							src="assets/img/workshops/7. Nature Comes Alive.png"
-							alt=""
-						/>
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/workshops/7. Nature Comes Alive.png" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/workshops/8. Spray Painting.jpeg" alt="" />
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/workshops/8. Spray Painting.jpeg" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/workshops/9. Salsa Dance.png" alt="" />
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/workshops/9. Salsa Dance.png" alt="" />
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="choose-widget-boxarea-event">
-						<img src="assets/img/workshops/10. Musical.png" alt="" />
+						<div class="col-lg-4 col-md-6">
+							<div class="choose-widget-boxarea-event">
+								<img src="assets/img/workshops/10. Musical.png" alt="" />
+							</div>
 						</div>
-					</div>
 					</div>
 				</div>
 			</div>
@@ -714,11 +707,12 @@
 											<div class="schedule">
 												<table>
 													<thead>
-														<tr style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
+														<tr
+															style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
 															<th style="color: white; ">Time</th>
 															<th style="color: white; ">Event</th>
 														</tr>
-														
+
 													</thead>
 													<tbody>
 														<tr>
@@ -754,11 +748,12 @@
 														</tr>
 													</tbody>
 												</table>
-					
+
 												<!-- Showcase Table -->
 												<table>
 													<thead>
-														<tr style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
+														<tr
+															style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
 															<th style="color: white; ">Time</th>
 															<th style="color: white; ">Showcase</th>
 														</tr>
@@ -777,11 +772,12 @@
 														</tr>
 													</tbody>
 												</table>
-					
+
 												<!-- Workshops Table -->
 												<table>
 													<thead>
-														<tr style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
+														<tr
+															style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
 															<th style="color: white; ">Time</th>
 															<th style="color: white; ">Workshop</th>
 														</tr>
@@ -822,20 +818,21 @@
 														<tr>
 															<td>4 PM - 6 PM</td>
 															<td>
-																Hourly On-The-Go Workshops  / Water
-																Colour Painting  / Bracelet Making  /
-																Poetry / <br> Mirror Wall  / Glow in the
-																Dark Paint  / Body Painting - Clay
+																Hourly On-The-Go Workshops / Water
+																Colour Painting / Bracelet Making /
+																Poetry / <br> Mirror Wall / Glow in the
+																Dark Paint / Body Painting - Clay
 																Modelling (Art Hive)
 															</td>
 														</tr>
 													</tbody>
 												</table>
-					
+
 												<!-- Gaming Immersion Table -->
 												<table>
 													<thead>
-														<tr style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
+														<tr
+															style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
 															<th style="color: white; ">Time</th>
 															<th style="color: white; ">Gaming Immersion</th>
 														</tr>
@@ -851,11 +848,12 @@
 														</tr>
 													</tbody>
 												</table>
-					
+
 												<!-- Performance & Leisure Table -->
 												<table>
 													<thead>
-														<tr style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
+														<tr
+															style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
 															<th style="color: white; ">Time</th>
 															<th style="color: white; ">Activity</th>
 														</tr>
@@ -873,7 +871,7 @@
 															</td>
 														</tr>
 													</tbody>
-													
+
 												</table>
 											</div>
 										</div>
@@ -885,139 +883,151 @@
 							aria-labelledby="pills-profile-tab" tabindex="0">
 							<div class="schedule-section-area sp10">
 								<div class="container">
-								  <div class="row">
-									<div class="col-lg-11 m-auto">
-									  <div class="schedule">
-										<table>
-										  <!-- Events Table -->
-										  <table>
-											<tr style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
-												<th style="color: white; ">Time</th>
-												<th style="color: white; ">Event</th>
-											</tr>
-											<tr>
-											  <td>10 AM - 1 PM</td>
-											  <td>
-												Somaiya Angel Network (TSS Audi) <br />
-												Sarkaar - Samaaj - Bazaar (Round Table) & Mumbai Donut Lab
-												Meetup (Gargi Plaza)
-											  </td>
-											</tr>
-											<tr>
-											  <td>10 AM - 6 PM</td>
-											  <td>
-												Frelo Portfolio 101 (120, Bhaskaracharya, KJSSE) <br />
-												KJSPARC (KJSSE Auditorium)
-											  </td>
-											</tr>
-											<tr>
-											  <td>3 PM - 6 PM</td>
-											  <td>Reel Contest Meetup (Gargi Plaza)</td>
-											</tr>
-											<tr>
-											  <td>4 PM - 5 PM</td>
-											  <td>Wise City Mumbai (Gargi Plaza)</td>
-											</tr>
-											<tr>
-											  <td>6 PM - 10 PM</td>
-											  <td>Under25 Summit (Gargi Plaza)</td>
-											</tr>
-										  </table>
-						  
-										  <!-- Workshops Table -->
-										  <table>
-											<tr style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
-												<th style="color: white; ">Time</th>
-												<th style="color: white; ">Workshop</th>
-											</tr>
-											<tr>
-											  <td>10 AM - 6 PM</td>
-											  <td>
-												Hourly On-The-Go Workshops (Art Hive) / Water Colour Painting / Bracelet Making / <br> Poetry / Mirror Wall / Glow in the Dark Paint / Body Painting / Clay Modelling
-											  </td>
-											</tr>
-											<tr>
-											  <td>10 AM - 1 PM</td>
-											  <td>
-												Calligraphy by Achyut Palav <br />
-												Canvas Painting Competition <br />
-												Poem and Poetry by Apeksha Harsh (Art Hive)
-											  </td>
-											</tr>
-											<tr>
-											  <td>2 PM - 3 PM</td>
-											  <td>
-												Doodle Your Dream by Ashlesha <br />
-												Intuitive Musical Exploration by Sidhharth Venkat (Art
-												Hive)
-											  </td>
-											</tr>
-											<tr>
-											  <td>2 PM - 5 PM</td>
-											  <td>Warli Painting by Deepak S. (Art Hive)</td>
-											</tr>
-											<tr>
-											  <td>4 PM - 6 PM</td>
-											  <td>
-												Nature Come Alive by Apeksha Harsh <br />
-												Salsa Dance by Yojna & Bharat (Art Hive)
-											  </td>
-											</tr>
-										  </table>
-						  
-										  <!-- Showcase Table -->
-										  <table>
-											<tr style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
-												<th style="color: white; ">Time</th>
-												<th style="color: white; ">Showcase</th>
-											</tr>
-											<tr>
-											  <td>10 AM - 6 PM</td>
-											  <td>
-												Innovation & Impact Showcase (Gargi Plaza/Art Hive) / <br> Sustainable Fashion and Lifestyle / Startups / Fablabs / Makerspace / Wellness / Art & Design / <br> AR & VR & AI / Physiotherapy / Museum on Wheels by CSMVS
-											  </td>
-											</tr>
-										  </table>
-						  
-										  <!-- Gaming Immersions Table -->
-										  <table>
-											<tr style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
-												<th style="color: white; ">Time</th>
-												<th style="color: white; ">Gaming Immersion</th>
-											</tr>
-											<tr>
-											  <td>10 AM - 6 PM</td>
-											  <td>Drone Obstacle Hive (Flagpole Area)</td>
-											</tr>
-											<tr>
-											  <td>10 AM - 6 PM</td>
-											  <td>VR Gaming Hive (225, Aryabhatta, KJSSE)</td>
-											</tr>
-										  </table>
-						  
-										  <!-- Performances & Leisure Table -->
-										  <table>
-											<tr style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
-												<th style="color: white; ">Time</th>
-												<th style="color: white; ">Activity</th>
-											</tr>
-											<tr>
-											  <td>2 PM - 6 PM</td>
-											  <td>Open Mic (Gargi Plaza/Art Hive)</td>
-											</tr>
-											<tr>
-											  <td>2 PM - 10 PM</td>
-											  <td>
-												Reading Nooks, Board Games Corner, Hammock, Fun Viewings, And more...
-											  </td>
-											</tr>
-										  </table>
-										</table>
-									  </div>
+									<div class="row">
+										<div class="col-lg-11 m-auto">
+											<div class="schedule">
+												<table>
+													<!-- Events Table -->
+													<table>
+														<tr
+															style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
+															<th style="color: white; ">Time</th>
+															<th style="color: white; ">Event</th>
+														</tr>
+														<tr>
+															<td>10 AM - 1 PM</td>
+															<td>
+																Somaiya Angel Network (TSS Audi) <br />
+																Sarkaar - Samaaj - Bazaar (Round Table) & Mumbai Donut
+																Lab
+																Meetup (Gargi Plaza)
+															</td>
+														</tr>
+														<tr>
+															<td>10 AM - 6 PM</td>
+															<td>
+																Frelo Portfolio 101 (120, Bhaskaracharya, KJSSE) <br />
+																KJSPARC (KJSSE Auditorium)
+															</td>
+														</tr>
+														<tr>
+															<td>3 PM - 6 PM</td>
+															<td>Reel Contest Meetup (Gargi Plaza)</td>
+														</tr>
+														<tr>
+															<td>4 PM - 5 PM</td>
+															<td>Wise City Mumbai (Gargi Plaza)</td>
+														</tr>
+														<tr>
+															<td>6 PM - 10 PM</td>
+															<td>Under25 Summit (Gargi Plaza)</td>
+														</tr>
+													</table>
+
+													<!-- Workshops Table -->
+													<table>
+														<tr
+															style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
+															<th style="color: white; ">Time</th>
+															<th style="color: white; ">Workshop</th>
+														</tr>
+														<tr>
+															<td>10 AM - 6 PM</td>
+															<td>
+																Hourly On-The-Go Workshops (Art Hive) / Water Colour
+																Painting / Bracelet Making / <br> Poetry / Mirror Wall /
+																Glow in the Dark Paint / Body Painting / Clay Modelling
+															</td>
+														</tr>
+														<tr>
+															<td>10 AM - 1 PM</td>
+															<td>
+																Calligraphy by Achyut Palav <br />
+																Canvas Painting Competition <br />
+																Poem and Poetry by Apeksha Harsh (Art Hive)
+															</td>
+														</tr>
+														<tr>
+															<td>2 PM - 3 PM</td>
+															<td>
+																Doodle Your Dream by Ashlesha <br />
+																Intuitive Musical Exploration by Sidhharth Venkat (Art
+																Hive)
+															</td>
+														</tr>
+														<tr>
+															<td>2 PM - 5 PM</td>
+															<td>Warli Painting by Deepak S. (Art Hive)</td>
+														</tr>
+														<tr>
+															<td>4 PM - 6 PM</td>
+															<td>
+																Nature Come Alive by Apeksha Harsh <br />
+																Salsa Dance by Yojna & Bharat (Art Hive)
+															</td>
+														</tr>
+													</table>
+
+													<!-- Showcase Table -->
+													<table>
+														<tr
+															style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
+															<th style="color: white; ">Time</th>
+															<th style="color: white; ">Showcase</th>
+														</tr>
+														<tr>
+															<td>10 AM - 6 PM</td>
+															<td>
+																Innovation & Impact Showcase (Gargi Plaza/Art Hive) /
+																<br> Sustainable Fashion and Lifestyle / Startups /
+																Fablabs / Makerspace / Wellness / Art & Design / <br> AR
+																& VR & AI / Physiotherapy / Museum on Wheels by CSMVS
+															</td>
+														</tr>
+													</table>
+
+													<!-- Gaming Immersions Table -->
+													<table>
+														<tr
+															style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
+															<th style="color: white; ">Time</th>
+															<th style="color: white; ">Gaming Immersion</th>
+														</tr>
+														<tr>
+															<td>10 AM - 6 PM</td>
+															<td>Drone Obstacle Hive (Flagpole Area)</td>
+														</tr>
+														<tr>
+															<td>10 AM - 6 PM</td>
+															<td>VR Gaming Hive (225, Aryabhatta, KJSSE)</td>
+														</tr>
+													</table>
+
+													<!-- Performances & Leisure Table -->
+													<table>
+														<tr
+															style="background: linear-gradient(135deg, #feae00 0%, #ff4357 40%, #7c2a96 75%, #00b6a0 100%);">
+															<th style="color: white; ">Time</th>
+															<th style="color: white; ">Activity</th>
+														</tr>
+														<tr>
+															<td>2 PM - 6 PM</td>
+															<td>Open Mic (Gargi Plaza/Art Hive)</td>
+														</tr>
+														<tr>
+															<td>2 PM - 10 PM</td>
+															<td>
+																Reading Nooks, Board Games Corner, Hammock, Fun
+																Viewings, And more...
+															</td>
+														</tr>
+													</table>
+												</table>
+											</div>
+										</div>
 									</div>
-								  </div>
 								</div>
-							  </div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1064,7 +1074,7 @@
 							</div>
 							<div class="btn-area1">
 								<a class="vl-btn9" href="pricing-plan"><span class="demo">Participate Now!
-								</span> </a>
+									</span> </a>
 							</div>
 						</div>
 						<ul>
@@ -1072,7 +1082,8 @@
 								<a href="#"><img src="assets/img/icons/calender2.svg" alt="" />20 February 2025</a>
 							</li>
 							<li class="m-0">
-								<a href="#"><img src="assets/img/icons/location1.svg" alt="" />Somaiya Vidyavihar University</a>
+								<a href="#"><img src="assets/img/icons/location1.svg" alt="" />Somaiya Vidyavihar
+									University</a>
 							</li>
 						</ul>
 					</div>
@@ -1298,20 +1309,21 @@
 					<div class="footer-logo-area">
 						<img src="assets/img/logo/siifIcon.svg" alt="" />
 						<div class="space16"></div>
-						<p>Somaiya Vidyavihar, Somaiya School of Design, Bhaskaracharya Building, Vidyavihar (E), Mumbai, Maharashtra 
+						<p>Somaiya Vidyavihar, Somaiya School of Design, Bhaskaracharya Building, Vidyavihar (E),
+							Mumbai, Maharashtra
 							400077</p>
 						<div class="space24"></div>
 						<ul>
 							<li>
-								<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+								<a href="https://www.facebook.com/siif.india" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
 							</li>
 							<li>
-								<a href="#"><i class="fa-brands fa-instagram"></i></a>
+								<a href="https://www.instagram.com/siif.india"><i class="fa-brands fa-instagram" target="_blank"></i></a>
 							</li>
 							<li>
-								<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+								<a href="https://www.linkedin.com/company/siif-india/"><i class="fa-brands fa-linkedin-in" target="_blank"></i></a>
 							</li>
-							
+
 						</ul>
 					</div>
 				</div>
@@ -1333,12 +1345,14 @@
 						<h3>Contact Us</h3>
 						<ul>
 							<li>
-								<a href="tel:+11234567890"><img src="assets/img/icons/phn1.svg" alt="" />+91 99200 52361</a>
+								<a href="tel:+11234567890"><img src="assets/img/icons/phn1.svg" alt="" />+91 99200
+									52361</a>
 							</li>
 							<li>
-								<a href="#"><img src="assets/img/icons/location1.svg" alt="" />Somaiya Vidyavihar University</a>
+								<a href="#"><img src="assets/img/icons/location1.svg" alt="" />Somaiya Vidyavihar
+									University</a>
 							</li>
-							
+
 							<li>
 								<a href="#"> <img src="assets/img/icons/world1.svg" alt="" />eventifyevent.com</a>
 							</li>
@@ -1406,7 +1420,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="copyright">
-						<p> Created By - <a href="https://www.digitiohub.in" target="_blank"> Digitiohub</a>. All Right Reserved</p>
+						<p> Created By - <a href="https://www.digitiohub.in" target="_blank"> Digitiohub</a>. All Right
+							Reserved</p>
 					</div>
 				</div>
 			</div>
@@ -1434,24 +1449,24 @@
 	<script src="assets/js/main.js"></script>
 	<script>
 		// Select the scrolling container
-				const scrollingRows = document.querySelectorAll(
-		  ".choose-section-area .container .event-scroller1, .choose-section-area .container .event-scroller2"
+		const scrollingRows = document.querySelectorAll(
+			".choose-section-area .container .event-scroller1, .choose-section-area .container .event-scroller2"
 		);
-		
+
 		let scrollSpeed = 1; // Adjust speed (px change per interval)
-		
+
 		function autoScroll() {
-		  scrollingRows.forEach(scrollingRow => {
-			if (scrollingRow.scrollLeft >= scrollingRow.scrollWidth - scrollingRow.clientWidth) {
-			  scrollingRow.scrollLeft = 0;
-			} else {
-			  scrollingRow.scrollLeft += scrollSpeed;
-			}
-		  });
+			scrollingRows.forEach(scrollingRow => {
+				if (scrollingRow.scrollLeft >= scrollingRow.scrollWidth - scrollingRow.clientWidth) {
+					scrollingRow.scrollLeft = 0;
+				} else {
+					scrollingRow.scrollLeft += scrollSpeed;
+				}
+			});
 		}
-		
+
 		setInterval(autoScroll, 10);
-	  </script>
+	</script>
 </body>
 
 
