@@ -3733,13 +3733,19 @@ Location:
 }
 @media (max-width: 767px) {
   .hero9-slider-area {
-    padding: 170px 0 0;
+    padding: 80px 0 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero9-slider-area {
     padding: 170px 0 0;
   }
+}
+@media only screen and (max-width: 767px) {
+    .cta-buttons {
+        margin-bottom: 75px;  /* Adjust the value as needed */
+        text-align: center;
+    }
 }
 .hero9-slider-area .hero8-header h5 {
   color: var(--ztc-text-text-1);
@@ -3931,6 +3937,18 @@ Location:
   .hero9-slider-area .heading12 h3 {
     font-size: var(--ztc-font-size-font-s28);
     line-height: 34px;
+  }
+
+  .hero9-slider-area .row.align-items-center {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hero9-slider-area .hero-logo {
+    order: 1;
+    margin-bottom: 40px; /* optional spacing */
+    width: 100%;
+    text-align: center;
   }
 }
 .hero9-slider-area .heading12 p {
